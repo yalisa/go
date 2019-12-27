@@ -1,0 +1,53 @@
+---
+title: "Го"
+#author: "Е.А. Янина"
+#date: `r format(Sys.time(), "%d %B, %Y")`
+bibliography: go.bib
+csl: gost-r-7-0-5-2008-numeric-iaa.csl
+utput: 
+  html_document:
+    theme: spacelab
+    highlight: pygments
+    toc: yes
+    toc_position: right
+    toc_depth: 3
+    toc_float: yes
+    smooth_scroll: no
+    code_folding: show
+    df_print: paged
+    include:
+      after_body: footer.html
+editor_options: 
+  chunk_output_type: console
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Основные понятия 
+
+https://www.rhymezone.com/r/d=baduk
+
+## Идеи что запрогать
+
+## Пакеты для R и гитхабы
+
+devtools::install_github("kota7/gogamer")
+library(gogamer)
+read_sgf()
+
+https://github.com/yenw/computer-go-dataset
+
+## Полезные ссылки
+
+https://www.remi-coulom.fr/kifu-snap/
+
+## Литература
+
+http://tomasm.cz/imago_files/go_image_recognition.pdf
+
+https://www.frontiersin.org/articles/10.3389/fnhum.2013.00633/full
+
+https://www.wintigo.org/allerlei/pdf/pi-11-143.pdf
